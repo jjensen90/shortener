@@ -29,3 +29,8 @@ Contributing
 Feel free to open any pull requests with any improvements.
 
 All URL shortening code under the namespace `Shortener` and located in `app/Shortener`
+
+License
+============
+
+Shortener is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

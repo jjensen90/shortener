@@ -54,7 +54,7 @@ class UrlController extends Controller
         $v = Validator::make($request->all(), ['original_url' => 'required|url|active_url'],
             $messages = [
                 'required' => 'Please Provide a URL to shorten.',
-                'url' => 'Please provide a valid URL.',
+                'url' => 'Please provide a valid URL, e.g. https://www.google.com/',
                 'active_url' => 'Please provide an active URL.'
             ]);
 

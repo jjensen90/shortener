@@ -13,6 +13,6 @@ $(document).ready(function ($) {
     });
 
     clientTarget.on( "aftercopy", function(event) {
-        $('#click-to-copy-success').fadeIn();
+        $('#click-to-copy-success').fadeIn().delay(1500).slideUp();
     });
 });

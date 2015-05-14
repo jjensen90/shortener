@@ -9,6 +9,7 @@ Requirements
 - OpenSSL PHP Extension
 - Mbstring PHP Extension
 - Tokenizer PHP Extension
+- ImageMagick lib / PHP Extension
 - [Composer](https://getcomposer.org/doc/00-intro.md)
 
 Installation

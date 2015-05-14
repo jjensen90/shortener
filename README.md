@@ -2,6 +2,10 @@
 
 Shortener is a small app written with [Laravel](http://laravel.com/) which provides a URL shortening service (similar to bit.ly, etc).
 
+Demo
+============
+You can see a demo [here](http://short.skidpadrc.com/)
+
 Requirements
 ============
 - PHP >= 5.4

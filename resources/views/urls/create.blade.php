@@ -1,9 +1,12 @@
 @extends('app')
 
 @section('content')
-    <h4>Shorten a URL</h4>
+    <div class="page-header">
+        <h1>Shorten a URL</h1>
+    </div>
+
 
     {!! Form::model(new Shortener\Models\Url, ['route' => ['urls.store']]) !!}
-    @include('urls/partials/_form', ['submit_text' => 'Shorten URL'])
+        @include('urls/partials/_form', ['submit_text' => 'Shorten URL'])
     {!! Form::close() !!}
 @endsection

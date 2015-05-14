@@ -8,7 +8,7 @@
 
     <div class="form-group form-group-lg">
         <div class="input-group input-group-lg">
-            <input type="text" class="form-control" id="shortened_url" value="{{ $full_shortened_url }}">
+            <input type="text" class="form-control" id="shortened_url" readonly="readonly" value="{{ $full_shortened_url }}">
             <span class="input-group-btn">
                 <button class="btn btn-default" id="shortened_url_copy" data-clipboard-target="shortened_url" type="button">Copy</button>
             </span>

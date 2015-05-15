@@ -58,7 +58,7 @@ class UrlController extends Controller
             ]);
 
         if ($v->fails()) {
-            return redirect()->back()->withErrors($v->errors());
+            return redirect()->back()->withInput()->withErrors($v->errors());
         }
 
         $url = $this->urls->create($request->all());

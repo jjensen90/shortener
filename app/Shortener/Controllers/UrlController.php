@@ -51,7 +51,7 @@ class UrlController extends Controller
      */
     public function store(Request $request)
     {
-        $v = Validator::make($request->all(), ['original_url' => 'required|url|active_url'],
+        $v = Validator::make($request->all(), ['original_url' => 'required|url'],
             $messages = [
                 'required' => 'Please Provide a URL to shorten.',
                 'url' => 'Please provide a valid URL, e.g. https://www.google.com/',
